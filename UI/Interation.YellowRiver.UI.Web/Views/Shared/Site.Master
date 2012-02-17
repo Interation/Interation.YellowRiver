@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <% Html.Css("~/content/css/global.css"); %>
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server" />
+</head>
+<body>
+    <div class="header">
+        <div class="center">
+            <a class="logo" href="javascript:void(0);"><img alt="" src="<%= Url.Content("~/content/image/logo.gif") %>" /></a>
+            <ul class="link">
+                <li><a class="ads" href="javascript:void(0);"></a></li>
+                <li><a class="tele" href="javascript:void(0);"></a></li>
+                <li><a class="deco" href="javascript:void(0);"></a></li>
+                <li><a class="cele" href="javascript:void(0);"></a></li>
+                <li><a class="forum" href="javascript:void(0);"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a class="current" href="javascript:void(0);">黄河首页</a></li>
+            <li><a href="javascript:void(0);">关于黄河</a></li>
+            <li><a href="javascript:void(0);">黄河服务</a></li>
+            <li><a href="javascript:void(0);">案例展示</a></li>
+            <li><a href="javascript:void(0);">黄河动态</a></li>
+            <li><a href="javascript:void(0);">招聘英才</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+    <div class="footer">
+        <div class="center">
+            <div class="left"></div>
+            <div class="right">
+                <p class="first">黄河品牌服务机构</p>
+                <ul class="link">
+                    <li><a class="ads" href="javascript:void(0);"></a></li>
+                    <li><a class="tele" href="javascript:void(0);"></a></li>
+                    <li><a class="deco" href="javascript:void(0);"></a></li>
+                    <li><a class="cele" href="javascript:void(0);"></a></li>
+                    <li><a class="forum" href="javascript:void(0);"></a></li>
+                </ul>
+                <div class="tel">
+                    023-<span>68699797</span><span>68698844</span>
+                </div>
+                <p>原注册地址：<span>重庆市九龙坡区石桥铺科园三路南方花园B区明珠楼</span></p>
+                <p>现过渡地址：<span>重庆市石桥铺渝新路89号瀚福楼</span></p>
+                <p>邮箱：<span>cqhuanghe@126.com</span> QQ：<span>408377398</span> 邮编：<span>401005</span></p>
+                <p>
+                    <span>黄河品牌服务机构1992-2010Huanghe</span>
+                    <a href="javascript:void(0);" target="_blank">渝ICP备05056789号</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="javascript:void(0);">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="javascript:void(0);">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="javascript:void(0);">网站地图</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <% Html.Javascript("~/scripts/jquery-1.4.1.min.js"); %>
+    <% Html.Javascript("~/scripts/jquery.extension.js"); %>
+    <asp:ContentPlaceHolder ID="ScriptContent" runat="server" />
+</body>
+</html>

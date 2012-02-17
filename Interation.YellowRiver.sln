@@ -1,8 +1,55 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6FDDB5C6-A210-4240-844F-E56D0C7F5834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.YellowRiver.UI.Web", "UI\Interation.YellowRiver.UI.Web\Interation.YellowRiver.UI.Web.csproj", "{7DED900A-6660-4869-A21C-20B38BB34562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.YellowRiver.UI.Controllers", "UI\Interation.YellowRiver.UI.Controllers\Interation.YellowRiver.UI.Controllers.csproj", "{C34FE438-1F46-466E-BC52-24FD812437E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.YellowRiver.UI.ViewModel", "UI\Interation.YellowRiver.UI.ViewModel\Interation.YellowRiver.UI.ViewModel.csproj", "{6B7754E9-FE45-4A8D-A764-FDAB17925713}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{E93845DD-4EA4-4CC1-8016-55921EA5C41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.YellowRiver.Foundation", "Foundation\Interation.YellowRiver.Foundation\Interation.YellowRiver.Foundation.csproj", "{E5977021-ED04-4BF1-AE6A-D21B69B7CF8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.YellowRiver.Foundation.Web", "Foundation\Interation.YellowRiver.Foundation.Web\Interation.YellowRiver.Foundation.Web.csproj", "{A72F15F2-9A2D-4BD8-B758-75BD2BAB7BA4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DED900A-6660-4869-A21C-20B38BB34562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DED900A-6660-4869-A21C-20B38BB34562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DED900A-6660-4869-A21C-20B38BB34562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DED900A-6660-4869-A21C-20B38BB34562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34FE438-1F46-466E-BC52-24FD812437E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34FE438-1F46-466E-BC52-24FD812437E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34FE438-1F46-466E-BC52-24FD812437E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34FE438-1F46-466E-BC52-24FD812437E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7754E9-FE45-4A8D-A764-FDAB17925713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7754E9-FE45-4A8D-A764-FDAB17925713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7754E9-FE45-4A8D-A764-FDAB17925713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7754E9-FE45-4A8D-A764-FDAB17925713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5977021-ED04-4BF1-AE6A-D21B69B7CF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5977021-ED04-4BF1-AE6A-D21B69B7CF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5977021-ED04-4BF1-AE6A-D21B69B7CF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5977021-ED04-4BF1-AE6A-D21B69B7CF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72F15F2-9A2D-4BD8-B758-75BD2BAB7BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72F15F2-9A2D-4BD8-B758-75BD2BAB7BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72F15F2-9A2D-4BD8-B758-75BD2BAB7BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72F15F2-9A2D-4BD8-B758-75BD2BAB7BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DED900A-6660-4869-A21C-20B38BB34562} = {6FDDB5C6-A210-4240-844F-E56D0C7F5834}
+		{C34FE438-1F46-466E-BC52-24FD812437E9} = {6FDDB5C6-A210-4240-844F-E56D0C7F5834}
+		{6B7754E9-FE45-4A8D-A764-FDAB17925713} = {6FDDB5C6-A210-4240-844F-E56D0C7F5834}
+		{E5977021-ED04-4BF1-AE6A-D21B69B7CF8C} = {E93845DD-4EA4-4CC1-8016-55921EA5C41B}
+		{A72F15F2-9A2D-4BD8-B758-75BD2BAB7BA4} = {E93845DD-4EA4-4CC1-8016-55921EA5C41B}
 	EndGlobalSection
 EndGlobal

@@ -72,21 +72,37 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Css\Global.css" />
+    <Content Include="Content\Image\AdvisoryBackground.gif" />
     <Content Include="Content\Image\Animation\0.jpg" />
     <Content Include="Content\Image\Animation\1.jpg" />
     <Content Include="Content\Image\Animation\2.jpg" />
     <Content Include="Content\Image\Animation\3.jpg" />
+    <Content Include="Content\Image\Animation\4.jpg" />
+    <Content Include="Content\Image\Brand\1.jpg" />
+    <Content Include="Content\Image\Brand\2.jpg" />
+    <Content Include="Content\Image\Brand\3.jpg" />
+    <Content Include="Content\Image\Brand\4.jpg" />
+    <Content Include="Content\Image\Brand\5.jpg" />
+    <Content Include="Content\Image\Brand\6.jpg" />
+    <Content Include="Content\Image\Brand\7.jpg" />
+    <Content Include="Content\Image\Brand\8.jpg" />
+    <Content Include="Content\Image\Case\1.jpg" />
+    <Content Include="Content\Image\Case\2.jpg" />
+    <Content Include="Content\Image\Case\3.jpg" />
+    <Content Include="Content\Image\Case\4.jpg" />
     <Content Include="Content\Image\FooterBackground.gif" />
     <Content Include="Content\Image\HeaderBackground.gif" />
     <Content Include="Content\Image\Links.gif" />
     <Content Include="Content\Image\Logo.gif" />
     <Content Include="Content\Image\Logo.jpg" />
     <Content Include="Content\Image\MenuBackground.gif" />
+    <Content Include="Content\Image\Plus.gif" />
     <Content Include="Content\Image\Telephone.gif" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery.extension.js" />
     <Content Include="Scripts\Module\Index.js" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Pager.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

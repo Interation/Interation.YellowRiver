@@ -1,6 +1,13 @@
-﻿body{ background:#000000; font-size:12px; margin:0px; }
+﻿body{ font-size:12px; margin:0px; }
 ul{ border:0px; margin:0px; padding:0px; }
 li{ border:0px; list-style:none; margin:0px; padding:0px; }
+
+.clear{ clear:both; font-size:0px; height:0px; overflow:hidden; }
+
+div.pager{ font-family:Arial; line-height:22px; }
+div.pager span{ background:#f0f0f0; border:solid 1px #cccccc; display:inline-block; padding:0px 9px; }
+div.pager a{ border:solid 1px #cccccc; color:#373737; display:inline-block; padding:0px 9px; text-decoration:none; }
+div.pager a.dot{ border:0px; }
 
 div.header{ background:url(../image/headerbackground.gif); height:125px; }
 div.header div.center{ height:125px; margin:0px auto; width:915px; }
@@ -27,10 +34,41 @@ div.main div.movie{ border:solid 1px #cccccc; height:346px; margin-top:10px; pad
 div.main div.movie div.locate{ height:100%; overflow:hidden; position:relative; width:100%; } 
 div.main div.movie div.locate ul.select{ bottom:10px; position:absolute; right:10px; }
 div.main div.movie div.locate ul.select li{ float:left; margin-left:5px; }
-div.main div.movie div.locate ul.select li a{ background:#ff0000; color:#ffffff; display:block; font-family:Arial; height:15px; line-height:15px; text-align:center; text-decoration:none; width:15px; }
+div.main div.movie div.locate ul.select li a{ background:#ffffff; color:#ff0000; display:block; font-family:Arial; font-weight:bold; height:15px; line-height:15px; text-align:center; text-decoration:none; width:15px; }
+div.main div.movie div.locate ul.select li a.current{ background:#ff0000; color:#ffffff; }
 div.main div.movie div.film{ height:346px; width:10000px; }
 div.main div.movie div.film div.frame{ float:left; height:346px; width:911px; }
 div.main div.movie div.film div.frame img{ height:100%; width:100%; }
+div.main div.display{ float:left; width:620px; }
+div.main div.display h2{ font-size:16px; line-height:35px; margin:0px; margin-top:25px; padding:0px; }
+div.main div.display ul.pics{ border-top:solid 1px #999999; }
+div.main div.display ul.pics li{ float:left; height:155px; overflow:hidden; padding:5px 0px; width:155px; }
+div.main div.display ul.pics li a{ display:block; }
+div.main div.display ul.pics li a img{ border:0px; height:100%; width:100%; }
+div.main div.display div.pager{ float:right; }
+div.main div.display div.message{ background:#e6e6e6; padding:25px 0px; }
+div.main div.display div.message div.thing{ float:left; height:32px; line-height:32px; overflow:hidden; padding-right:5px; text-align:right; width:75px; }
+div.main div.display div.message div.value{ float:left; height:32px; overflow:hidden; width:230px; }
+div.main div.display div.message div.value input{ border:solid 1px #969696; float:left; height:16px; line-height:16px; margin:0px; margin-top:3px; padding:2px; width:150px; }
+div.main div.display div.message div.text{ float:left; }
+div.main div.display div.message div.text textarea{ border:solid 1px #969696; height:45px; margin:0px; margin-top:3px; overflow:auto; padding:2px; width:460px; }
+div.main div.display div.message_submit{ text-align:center; }
+div.main div.display div.message_submit input{ background:#cc0000; border:0px; color:#ffffff; height:30px; margin:15px 0px 55px 0px; padding:0px; width:88px; }
+
+div.main div.sidebar{ float:left; margin-left:20px; width:275px; }
+div.main div.sidebar div.advisory{ background:#dedede; margin-top:25px; padding:0px 5px; padding-bottom:15px; }
+div.main div.sidebar h2{ font-size:16px; line-height:35px; margin:0px; margin-top:25px; padding:0px; }
+div.main div.sidebar div.advisory h2{ margin-top:0px; }
+div.main div.sidebar div.advisory div.white{ background:#ffffff url(../image/advisorybackground.gif) no-repeat 120px 40px; color:#666666; margin-bottom:12px; padding:12px 6px; padding-bottom:24px; }
+div.main div.sidebar div.advisory div.white div.tel{ color:#e90013; font-family:Arial; font-size:15px; height:30px; letter-spacing:0px; }
+div.main div.sidebar div.advisory div.white div.tel span{ font-size:22px; padding-right:15px; }
+div.main div.sidebar div.advisory div.white a{ color:#666666; }
+div.main div.sidebar div.advisory div.thing{ color:#353535; float:left; line-height:18px; margin-top:5px; width:76px; }
+div.main div.sidebar div.advisory div.value{ color:#353535; float:left; line-height:18px; margin-top:5px; width:188px; }
+div.main div.sidebar ul.case{ }
+div.main div.sidebar ul.case li{ border:solid 1px #e6e6e6; float:left; margin-bottom:5px; margin-left:2px; }
+div.main div.sidebar ul.case li a{ background:url(../image/plus.gif) no-repeat 4px center; color:#666666; display:block; height:25px; line-height:25px; text-align:center; text-decoration:none; width:88px; }
+div.main div.sidebar ul.case li.left{ margin:0px; }
 
 div.footer{ background:#6b6b6b url(../image/footerbackground.gif) repeat-x; color:#f5f5f5; }
 div.footer div.center{ height:290px; margin:0px auto; width:915px; }
@@ -50,3 +88,4 @@ div.footer div.center div.right ul.link li a.cele{ background-position:-135px -4
 div.footer div.center div.right ul.link li a.forum{ background-position:-135px -0px; }
 div.footer div.center div.right div.tel{ background:url(../image/telephone.gif) no-repeat; font-family:Times New Roman; font-size:17px; height:30px; margin-bottom:10px; margin-left:26px; text-indent:40px; }
 div.footer div.center div.right div.tel span{ font-size:28px; padding-right:15px; }
+
